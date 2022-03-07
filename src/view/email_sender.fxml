@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="150.0" prefWidth="496.0" stylesheets="@../resource/dark-theme.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.EmailSenderController">
+   <children>
+      <JFXProgressBar fx:id="progressBar" layoutX="24.0" layoutY="86.0" prefHeight="0.0" prefWidth="455.0" styleClass="progress-bar-main" AnchorPane.bottomAnchor="10.0" />
+      <Text fx:id="text" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="main-text" text="Notifying 0 / N" wrappingWidth="496.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>

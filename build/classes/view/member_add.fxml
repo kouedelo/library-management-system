@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane fx:id="rootPane" prefHeight="699.0" prefWidth="477.0" stylesheets="@../resource/dark-theme.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MemberAddController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="mainContainer" prefHeight="496.0" prefWidth="477.0" styleClass="custom-pane" stylesheets="@../resource/dark-theme.css">
+         <children>
+            <VBox layoutX="-1.0" layoutY="23.0" prefHeight="589.0" prefWidth="477.0" spacing="10.0" AnchorPane.bottomAnchor="87.0" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="23.0">
+               <children>
+                  <JFXTextField fx:id="ssn" labelFloat="true" promptText="Member SSN">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin></JFXTextField>
+                  <JFXTextField fx:id="Fname" labelFloat="true" promptText="First Name">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin></JFXTextField>
+                  <JFXTextField fx:id="Lname" labelFloat="true" promptText="Last Name">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin></JFXTextField>
+                  <JFXDatePicker fx:id="birthdate" editable="false" promptText="Birthdate">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin></JFXDatePicker>
+                  <JFXTextField fx:id="phoneNumber" labelFloat="true" promptText="Phone Number">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin></JFXTextField>
+                  <JFXTextField fx:id="campusMailAddress" labelFloat="true" promptText="Campus Mail Address">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin></JFXTextField>
+                  <JFXTextField fx:id="homeMailAddress" labelFloat="true" promptText="Home Mail Address">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin></JFXTextField>
+                  <JFXComboBox fx:id="isAProfessor" promptText="Are you a professor?" visibleRowCount="16">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin></JFXComboBox>
+                  <JFXTextField fx:id="Department" labelFloat="true" promptText="Department">
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin></JFXTextField>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </VBox>
+            <HBox alignment="CENTER" layoutY="645.0" prefHeight="47.0" prefWidth="477.0" spacing="30.0">
+               <children>
+                  <JFXButton fx:id="saveButton" onAction="#addMember" prefHeight="66.0" prefWidth="100.0" text="Save" />
+                  <JFXButton fx:id="cancelButton" layoutX="10.0" layoutY="10.0" onAction="#cancel" prefHeight="66.0" prefWidth="100.0" text="Cancel" />
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

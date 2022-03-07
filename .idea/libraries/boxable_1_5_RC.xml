@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="boxable-1.5-RC">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/boxable-1.5-RC.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-codec-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-csv-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/derby.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/derbyclient.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/fontawesomefx-commons-8.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/fontawesomefx-fontawesome-4.7.0-5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/fontbox-2.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/guava-21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.mail-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jfoenix-8.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-api-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-core-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pdfbox-2.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.7.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-simple-1.7.25.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

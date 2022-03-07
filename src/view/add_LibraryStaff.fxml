@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane fx:id="rootPane" prefHeight="563.0" prefWidth="575.0" stylesheets="@../resource/dark-theme.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.LibraryStaffAddController">
+   <children>
+      <AnchorPane id="AnchorPane" fx:id="mainContainer" prefHeight="548.0" prefWidth="575.0" styleClass="custom-pane" stylesheets="@../resource/dark-theme.css">
+         <children>
+            <VBox layoutY="-15.0" prefHeight="564.0" prefWidth="575.0" spacing="10.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-15.0">
+               <children>
+                  <JFXTextField fx:id="fname" labelFloat="true" promptText="First Name">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="lname" labelFloat="true" layoutX="20.0" layoutY="30.0" promptText="Last Name">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXTextField>
+                  <JFXDatePicker fx:id="bdate" layoutX="20.0" layoutY="30.0" prefWidth="525.0" promptText="Birthdate">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXDatePicker>
+                  <JFXTextField fx:id="stafID" labelFloat="true" layoutX="20.0" layoutY="30.0" promptText="Staff ID">
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXTextField>
+                  <JFXTextField fx:id="usrname" labelFloat="true" layoutX="20.0" layoutY="30.0" promptText="Username">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXTextField>
+                  <JFXComboBox fx:id="stafType" layoutX="20.0" layoutY="30.0" maxHeight="33.0" maxWidth="535.0" promptText="Staff Type">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXComboBox>
+                  <JFXPasswordField fx:id="pasword" promptText="Password">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" top="20.0" />
+                     </VBox.margin>
+                  </JFXPasswordField>
+                  <HBox alignment="CENTER" minHeight="59.0" prefHeight="45.0" prefWidth="545.0" spacing="30.0">
+                     <children>
+                        <JFXButton fx:id="saveButton" onAction="#addLibraryStaff" prefHeight="66.0" prefWidth="100.0" text="Save" />
+                        <JFXButton fx:id="cancelButton" layoutX="10.0" layoutY="10.0" onAction="#cancel" prefHeight="66.0" prefWidth="100.0" text="Cancel" />
+                     </children>
+                     <VBox.margin>
+                        <Insets top="25.0" />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="20.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <padding>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+               </padding>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
